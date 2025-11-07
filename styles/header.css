@@ -1,11 +1,30 @@
 header {
+  --fs-title: 0.937rem;
+
+  @media (width >= 1280px) {
+    --fs-title: 1.5rem;
+
+    .py-md {
+      padding-block: 1.25rem;
+    }
+  }
+
   & nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     & a {
-      font: var(--fw-lg) var(--fs-md) / 100% var(--font-family);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      font: var(--fw-lg) var(--fs-md) / 140% var(--font-family);
+      color: var(--text-color-primary);
+    }
+
+    & a:nth-child(2) {
+      font: var(--fw-lg) var(--fs-title) / 100% var(--font-family);
       color: var(--brand-color-light);
       text-transform: uppercase;
     }
@@ -14,7 +33,7 @@ header {
   & #matters {
     border-block: 1px solid var(--stroke-color);
 
-    & > .container {
+    & .container {
       display: flex;
       align-items: center;
       justify-content: space-between;
