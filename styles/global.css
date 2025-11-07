@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+
+  --text-color-primary: #f1f5f9;
+  --text-color-secondary: #cbd5e1;
+
+  --font-family: "Poppins", sans-serif;
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-extrabold: 800;
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.5rem;
+}
