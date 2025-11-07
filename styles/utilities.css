@@ -1,0 +1,19 @@
+.container {
+  --max-width: 360px;
+  width: min(var(--max-width), 100% - var(--px-md) * 2);
+  margin-inline: auto;
+}
+
+@media (width >= 1280px) {
+  .container {
+    --max-width: 1280px;
+  }
+}
+
+.py-sm {
+  padding-block: var(--py-sm);
+}
+
+.py-md {
+  padding-block: var(--py-md);
+}

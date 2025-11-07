@@ -16,11 +16,24 @@
 
   --font-family: "Poppins", sans-serif;
 
-  --fw-regular: 400;
-  --fw-semibold: 600;
-  --fw-extrabold: 800;
+  --fw-sm: 400;
+  --fw-md: 600;
+  --fw-lg: 800;
 
   --fs-sm: 0.875rem;
-  --fs-base: 1rem;
+  --fs-md: 1rem;
   --fs-lg: 1.5rem;
+
+  --px-md: 1rem;
+
+  --py-sm: 0.875rem;
+  --py-md: 1rem;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
 }

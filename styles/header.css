@@ -1,0 +1,35 @@
+header {
+  & nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a {
+      font: var(--fw-lg) var(--fs-md) / 100% var(--font-family);
+      color: var(--brand-color-light);
+      text-transform: uppercase;
+    }
+  }
+
+  & #matters {
+    border-block: 1px solid var(--stroke-color);
+
+    & > .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      overflow-x: auto;
+      white-space: nowrap;
+
+      & a {
+        font: var(--fw-md) var(--fs-sm) / 145% var(--font-family);
+        color: var(--text-color-secondary);
+      }
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
