@@ -14,7 +14,7 @@
   --text-color-primary: #f1f5f9;
   --text-color-secondary: #cbd5e1;
 
-  --font-family: "Poppins", sans-serif;
+  --font-family: "Archivo", sans-serif;
 
   --fw-sm: 400;
   --fw-md: 600;
@@ -40,6 +40,20 @@ body {
   background-color: var(--bg-color);
 }
 
+h1 {
+  font: var(--fw-lg) var(--fs-lg) / 135% var(--font-family);
+  color: var(--text-color-primary);
+}
+
+h2 {
+  font: var(--fw-lg) var(--fs-sm) / 140% var(--font-family);
+  color: var(--text-color-primary);
+}
+
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
