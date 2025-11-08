@@ -9,7 +9,7 @@ header {
     }
   }
 
-  & nav {
+  & #primary {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,7 @@ header {
   & #matters {
     border-block: 1px solid var(--stroke-color);
 
-    & .container {
+    & #secondary {
       display: flex;
       align-items: center;
       justify-content: space-between;
