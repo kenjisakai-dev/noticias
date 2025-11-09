@@ -12,4 +12,22 @@
     letter-spacing: 0.04rem;
     box-shadow: 0rem 0.25rem 1rem rgba(2, 6, 23, 0.25);
   }
+
+  & h2::after {
+    content: attr(data-mobile);
+  }
+
+  & h3::after {
+    content: attr(data-mobile);
+  }
+
+  @media (width >= 1280px) {
+    & h2::after {
+      content: attr(data-desktop);
+    }
+
+    & h3::after {
+      content: attr(data-desktop);
+    }
+  }
 }

@@ -1,0 +1,7 @@
+main {
+  @media (width >= 1280px) {
+    & > .container {
+      gap: 5rem;
+    }
+  }
+}

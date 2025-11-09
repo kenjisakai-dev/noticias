@@ -18,10 +18,6 @@
       right: 0.75rem;
       z-index: 1;
       overflow: hidden;
-
-      & h3::after {
-        content: attr(data-mobile);
-      }
     }
 
     &:first-child {
@@ -39,10 +35,6 @@
     }
 
     & .card {
-      & h3::after {
-        content: attr(data-desktop);
-      }
-
       &:nth-child(1) {
         display: none;
       }
