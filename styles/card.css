@@ -1,0 +1,15 @@
+.card {
+  & strong {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+
+    background-color: var(--brand-color-dark);
+    font: 500 0.625rem / 120% var(--font-family);
+    color: var(--text-color-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
+    box-shadow: 0rem 0.25rem 1rem rgba(2, 6, 23, 0.25);
+  }
+}

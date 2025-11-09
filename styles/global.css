@@ -46,6 +46,11 @@ h1 {
 }
 
 h2 {
+  font: var(--fw-lg) var(--fs-md) / 140% var(--font-family);
+  color: var(--text-color-primary);
+}
+
+h3 {
   font: var(--fw-lg) var(--fs-sm) / 140% var(--font-family);
   color: var(--text-color-primary);
 }
