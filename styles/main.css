@@ -1,4 +1,6 @@
 main {
+  padding-bottom: 2.5rem;
+
   @media (width >= 1280px) {
     & > .container {
       gap: 5rem;

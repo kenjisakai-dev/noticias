@@ -1,8 +1,6 @@
 #most-read {
-  border-top: 1px solid var(--stroke-color);
-
   & .cards {
-    padding-block: 1.5rem;
+    padding-bottom: 1.5rem;
 
     & figure {
       position: relative;
@@ -28,10 +26,12 @@
 }
 
 .see-all {
+  border-top: 1px solid var(--stroke-color);
+
   display: flex;
   align-items: center;
-  margin-top: 0.75rem;
   justify-content: space-between;
+  padding-block: 0.75rem 1.5rem;
 
   & span {
     font: var(--fw-md) var(--fs-sm) / 145% var(--font-family);

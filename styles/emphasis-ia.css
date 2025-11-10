@@ -1,10 +1,4 @@
 #emphasis-ia {
-  border-top: 1px solid var(--stroke-color);
-
-  & .cards {
-    margin-top: 1.5rem;
-  }
-
   & .card {
     display: flex;
     gap: 1rem;
