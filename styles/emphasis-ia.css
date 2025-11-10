@@ -17,6 +17,24 @@
     & p {
       font: var(--fw-sm) var(--fs-sm) / 160% var(--font-family);
       color: var(--text-color-secondary);
+      margin-top: 0.25rem;
+    }
+  }
+
+  @media (width >= 1280px) {
+    & .card {
+      position: relative;
+      align-items: center;
+      flex-direction: row-reverse;
+
+      & img {
+        width: 11rem;
+        height: 11rem;
+      }
+
+      & > div {
+        margin-block: 0.375rem;
+      }
     }
   }
 }
