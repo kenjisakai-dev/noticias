@@ -1,0 +1,22 @@
+#emphasis-ia {
+  border-top: 1px solid var(--stroke-color);
+
+  & .cards {
+    margin-top: 1.5rem;
+  }
+
+  & .card {
+    display: flex;
+    gap: 1rem;
+
+    & img {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    & p {
+      font: var(--fw-sm) var(--fs-sm) / 160% var(--font-family);
+      color: var(--text-color-secondary);
+    }
+  }
+}

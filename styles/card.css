@@ -13,6 +13,10 @@
     box-shadow: 0rem 0.25rem 1rem rgba(2, 6, 23, 0.25);
   }
 
+  & p::after {
+    content: attr(data-mobile);
+  }
+
   & h2::after {
     content: attr(data-mobile);
   }
@@ -22,6 +26,10 @@
   }
 
   @media (width >= 1280px) {
+    & p::after {
+      content: attr(data-desktop);
+    }
+
     & h2::after {
       content: attr(data-desktop);
     }

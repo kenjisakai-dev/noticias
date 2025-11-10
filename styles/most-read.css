@@ -1,35 +1,9 @@
 #most-read {
   border-top: 1px solid var(--stroke-color);
 
-  & .see-all {
-    display: flex;
-    align-items: center;
-    margin-block: 0.75rem 1.5rem;
-    justify-content: space-between;
-
-    & span {
-      font: var(--fw-md) var(--fs-sm) / 145% var(--font-family);
-      color: var(--text-color-secondary);
-    }
-
-    & a {
-      display: flex;
-      align-items: center;
-      gap: 0.25rem;
-
-      &:hover {
-        & span {
-          color: var(--brand-color-light);
-        }
-
-        & svg path {
-          fill: var(--brand-color-light);
-        }
-      }
-    }
-  }
-
   & .cards {
+    padding-block: 1.5rem;
+
     & figure {
       position: relative;
 
@@ -49,6 +23,34 @@
     & .cards {
       grid-template-columns: repeat(4, 1fr);
       gap: 1rem;
+    }
+  }
+}
+
+.see-all {
+  display: flex;
+  align-items: center;
+  margin-top: 0.75rem;
+  justify-content: space-between;
+
+  & span {
+    font: var(--fw-md) var(--fs-sm) / 145% var(--font-family);
+    color: var(--text-color-secondary);
+  }
+
+  & a {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+
+    &:hover {
+      & span {
+        color: var(--brand-color-light);
+      }
+
+      & svg path {
+        fill: var(--brand-color-light);
+      }
     }
   }
 }
