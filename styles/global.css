@@ -18,7 +18,8 @@
 
   --fw-sm: 400;
   --fw-md: 600;
-  --fw-lg: 800;
+  --fw-lg: 700;
+  --fw-xl: 800;
 
   --fs-sm: 0.875rem;
   --fs-md: 1rem;
@@ -41,17 +42,17 @@ body {
 }
 
 h1 {
-  font: var(--fw-lg) var(--fs-lg) / 135% var(--font-family);
+  font: var(--fw-xl) var(--fs-lg) / 135% var(--font-family);
   color: var(--text-color-primary);
 }
 
 h2 {
-  font: var(--fw-lg) var(--fs-md) / 140% var(--font-family);
+  font: var(--fw-xl) var(--fs-md) / 140% var(--font-family);
   color: var(--text-color-primary);
 }
 
 h3 {
-  font: var(--fw-lg) var(--fs-sm) / 140% var(--font-family);
+  font: var(--fw-xl) var(--fs-sm) / 140% var(--font-family);
   color: var(--text-color-primary);
 }
 

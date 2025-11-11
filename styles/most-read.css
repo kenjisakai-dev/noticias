@@ -24,33 +24,3 @@
     }
   }
 }
-
-.see-all {
-  border-top: 1px solid var(--stroke-color);
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-block: 0.75rem 1.5rem;
-
-  & span {
-    font: var(--fw-md) var(--fs-sm) / 145% var(--font-family);
-    color: var(--text-color-secondary);
-  }
-
-  & a {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-
-    &:hover {
-      & span {
-        color: var(--brand-color-light);
-      }
-
-      & svg path {
-        fill: var(--brand-color-light);
-      }
-    }
-  }
-}

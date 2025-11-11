@@ -1,4 +1,4 @@
-#emphasis-ia {
+#ia {
   & .card {
     display: flex;
     gap: 1rem;
@@ -17,7 +17,6 @@
 
   @media (width >= 1280px) {
     & .card {
-      position: relative;
       align-items: center;
       flex-direction: row-reverse;
 
@@ -26,7 +25,7 @@
         height: 11rem;
       }
 
-      & > div {
+      & figcaption {
         margin-block: 0.375rem;
       }
     }

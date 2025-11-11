@@ -2,7 +2,7 @@
   @media (width >= 1280px) {
     grid-template-columns: 2fr 1.4fr;
 
-    & #emphasis-ia {
+    & #ia {
       grid-column: 1/2;
     }
 

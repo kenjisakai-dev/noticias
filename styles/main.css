@@ -1,11 +1,15 @@
 main {
-  padding-bottom: 2.5rem;
+  .py-md {
+    padding-block: 1rem 3.5rem;
+  }
 
   @media (width >= 1280px) {
-    padding-bottom: 5rem;
-
     & > .container {
       gap: 5rem;
+    }
+
+    .py-md {
+      padding-block: 2.5rem 5rem;
     }
   }
 }

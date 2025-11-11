@@ -24,9 +24,14 @@ header {
     }
 
     & a:nth-child(2) {
-      font: var(--fw-lg) var(--fs-title) / 100% var(--font-family);
+      font: var(--fw-xl) var(--fs-title) / 100% var(--font-family);
       color: var(--brand-color-light);
       text-transform: uppercase;
+      padding-block: 0.156rem;
+
+      @media (width >= 1280px) {
+        padding-block: 0.25rem;
+      }
     }
   }
 
